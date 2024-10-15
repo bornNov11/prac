@@ -1,13 +1,15 @@
 {
+    "homepage": "https://bornnov11.github.io/prac/",
     "name": "stewdy-chat",
     "version": "1.0.0",
     "description": "Simple study chat application",
     "main": "server.js",
     "scripts": {
-      "start": "node server.js"
+        "start": "node server.js"
     },
     "dependencies": {
-      "express": "^4.17.1",
-      "socket.io": "^4.4.1"
+        "express": "^4.17.1",
+        "gh-pages": "^6.2.0",
+        "socket.io": "^4.4.1"
     }
-  }
+}
